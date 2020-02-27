@@ -1,0 +1,39 @@
+{
+    "name": "dealerinspire/laminas-testcase",
+    "description": "Unit test support module for Laminas projects",
+    "require": {
+        "php": "~7.1",
+        "api-skeletons/zf-oauth2-doctrine": "*",
+        "doctrine/orm": "*",
+        "fzaninotto/faker": "^1.8",
+        "laminas/laminas-dependency-plugin": "^1.0",
+        "laminas/laminas-test": "^2.6",
+        "laminas/laminas-servicemanager": "^2.7",
+        "laminas/laminas-stdlib": "*",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "*",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "laminas/laminas-developer-tools": "^2.0",
+        "laminas/laminas-serializer": "^2.9",
+        "laminas/laminas-log": "^2.12"
+    },
+    "support": {
+        "email": "sysops@dealerinspire.com",
+        "source": "https://www.bitbucket.org/dealerinspire/laminas-user"
+    },
+    "config": {
+        "process-timeout": 5000
+    },
+    "autoload": {
+        "psr-4": {
+            "DiCommonTest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DiCommonTest\\Test\\": "test"
+        }
+    }
+}
