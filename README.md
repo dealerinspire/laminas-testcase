@@ -1,4 +1,4 @@
-# Dealer Inspire Apigility Test Support
+# Dealer Inspire Laminas Test Support
 
 Add the Satis repository to your `composer.json`:
 
@@ -17,5 +17,16 @@ Be sure to replace the password above with...you know...the usual password.
 Require this package:
 
 ```
-composer require --dev dealerinspire/dealerinspire-apigility-testcase
+composer require --dev dealerinspire/laminas-testcase
+```
+
+##Deployment
+
+Merge to master. Tag the commit. Update Satis.
+
+##Testing
+
+```
+composer install
+./vendor/bin/phpunit
 ```

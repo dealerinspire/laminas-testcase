@@ -1,0 +1,7 @@
+pipelines:
+  tags:
+    '*.*.*':
+      - step:
+          name: Build and Release
+          script:
+            - echo "Update Satis"
