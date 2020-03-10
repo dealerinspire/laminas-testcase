@@ -5,7 +5,7 @@ namespace DiCommonTest\Domain;
 use Laminas\Stdlib\ArrayUtils;
 
 /**
- * Test bootstrap, for setting up Apigility configuration
+ * Test bootstrap, for setting up Laminas configuration
  */
 class Bootstrap
 {
