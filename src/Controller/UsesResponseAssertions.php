@@ -10,21 +10,21 @@ trait UsesResponseAssertions
     /**
      * Assert response status code is what we expect it to be.
      *
-     * @param int $expected
+     * @param int $code
      * @return void
      */
-    protected function assertResponseStatusCode($expected)
+    public function assertResponseStatusCode($code)
     {
         $actual = $this->getResponseStatusCode();
 
         $message = sprintf(
             'Looking for response code "%s." Actual status code is "%s" (%s).',
-            $expected,
+            $code,
             $actual,
             $this->getResponse()->getReasonPhrase()
         );
 
-        Assert::assertEquals($expected, $actual, $message);
+        Assert::assertEquals($code, $actual, $message);
     }
 
     /**
