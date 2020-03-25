@@ -1,6 +1,7 @@
 {
     "name": "dealerinspire/laminas-testcase",
     "description": "Unit test support module for Laminas projects",
+    "license": "MIT",
     "require": {
         "php": "~7.1",
         "fzaninotto/faker": "^1.8",

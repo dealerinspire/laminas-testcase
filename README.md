@@ -1,18 +1,8 @@
 # Dealer Inspire Laminas Test Support
 
-Add the Satis repository to your `composer.json`:
-
-```json
-{
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://dealerinspire:<the usual password>@composer.infra.dealerinspire.com/"    
-    }
-  ]
-}
-```
-Be sure to replace the password above with...you know...the usual password.
+This package provides a base TestCase class for PhpUnit testing
+in Laminas projects. The master-v1 branch supports the Apigility framework
+(which was the precursor to Laminas).
 
 Require this package:
 
@@ -20,9 +10,11 @@ Require this package:
 composer require --dev dealerinspire/laminas-testcase
 ```
 
-##Deployment
+Apigility projects:
 
-Merge to master. Tag the commit. Update Satis.
+```
+composer require --dev dealerinspire/laminas-testcase@~1.0
+```
 
 ##Testing
 
