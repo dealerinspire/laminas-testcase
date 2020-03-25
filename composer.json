@@ -2,7 +2,7 @@
     "name": "dealerinspire/laminas-testcase",
     "description": "Unit test support module for Laminas projects",
     "require": {
-        "php": "~7.1",
+        "php": "~7.0",
         "fzaninotto/faker": "^1.8",
         "zendframework/zend-test": "^2.6",
         "zendframework/zend-servicemanager": "^2.7",
