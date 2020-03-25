@@ -26,7 +26,7 @@ class TestCase extends BaseTestCase
     /**
      * @inheritDoc
      */
-    public function setUp(): void
+    protected function setUp()
     {
         parent::setUp();
 
@@ -42,7 +42,7 @@ class TestCase extends BaseTestCase
     /**
      * @inheritDoc
      */
-    public function tearDown(): void
+    protected function tearDown()
     {
         $this->doctrineEm->rollback();
         $this->doctrineEm = null;
