@@ -1,8 +1,8 @@
 <?php
 
-namespace DiCommonTest\Test\Domain;
+namespace DealerInspire\LaminasTestcase\Test\Domain;
 
-use DiCommonTest\Domain\TestCase;
+use DealerInspire\LaminasTestcase\Domain\TestCase;
 use Doctrine\ORM\EntityManager;
 use Faker\Generator;
 use GuzzleHttp\Client;

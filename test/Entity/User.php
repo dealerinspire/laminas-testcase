@@ -1,6 +1,6 @@
 <?php
 
-namespace DiCommonTest\Test\Entity;
+namespace DealerInspire\LaminasTestcase\Test\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use ZF\OAuth2\Doctrine\Entity\UserInterface;

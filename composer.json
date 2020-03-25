@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DiCommonTest\\": "src"
+            "DealerInspire\\LaminasTestcase\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DiCommonTest\\Test\\": "test"
+            "DealerInspire\\LaminasTestcase\\Test\\": "test"
         }
     }
 }

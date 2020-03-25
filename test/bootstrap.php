@@ -1,6 +1,6 @@
 <?php
 
-use DiCommonTest\Domain\Bootstrap;
+use DealerInspire\LaminasTestcase\Domain\Bootstrap;
 
 error_reporting(E_ALL | E_STRICT);
 chdir(__DIR__);

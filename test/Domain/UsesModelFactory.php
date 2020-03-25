@@ -1,11 +1,11 @@
 <?php
 
-namespace DiCommonTest\Test\Domain;
+namespace DealerInspire\LaminasTestcase\Test\Domain;
 
-use DiCommonTest\Test\Entity\Suspect;
+use DealerInspire\LaminasTestcase\Test\Entity\Suspect;
 use Doctrine\ORM\EntityManagerInterface;
 use Faker\Generator;
-use DiCommonTest\Domain\ModelFactory;
+use DealerInspire\LaminasTestcase\Domain\ModelFactory;
 
 trait UsesModelFactory
 {

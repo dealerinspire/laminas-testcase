@@ -1,10 +1,10 @@
 <?php
 
-namespace DiCommonTest\Test\Domain;
+namespace DealerInspire\LaminasTestcase\Test\Domain;
 
-use DiCommonTest\Domain\TestCase;
-use DiCommonTest\Domain\UsesDatabaseAssertions;
-use DiCommonTest\Test\Entity\Suspect;
+use DealerInspire\LaminasTestcase\Domain\TestCase;
+use DealerInspire\LaminasTestcase\Domain\UsesDatabaseAssertions;
+use DealerInspire\LaminasTestcase\Test\Entity\Suspect;
 
 class UsesDatabaseAssertionsTest extends TestCase
 {

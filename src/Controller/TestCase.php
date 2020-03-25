@@ -1,9 +1,9 @@
 <?php
 
-namespace DiCommonTest\Controller;
+namespace DealerInspire\LaminasTestcase\Controller;
 
-use DiCommonTest\Domain\UsesDatabaseAssertions;
-use DiCommonTest\Domain\UsesServiceManager;
+use DealerInspire\LaminasTestcase\Domain\UsesDatabaseAssertions;
+use DealerInspire\LaminasTestcase\Domain\UsesServiceManager;
 use Doctrine\ORM\EntityManager;
 use Faker\Factory;
 use Faker\Generator;

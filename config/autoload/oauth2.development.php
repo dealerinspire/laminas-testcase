@@ -1,6 +1,6 @@
 <?php
 
-$userEntity = DiCommonTest\Test\Entity\User::class;
+$userEntity = DealerInspire\LaminasTestcase\Test\Entity\User::class;
 
 return [
     'zf-oauth2-doctrine' => [

@@ -19,9 +19,8 @@ return [
             ],
             'orm_default' => [
                 'drivers' => [
-                    'DiCommonTest\Test\Entity' => 'test_annotation_driver',
+                    'DealerInspire\LaminasTestcase\Test\Entity' => 'test_annotation_driver',
                     'ZF\OAuth2\Doctrine\Entity' => 'oauth2_driver',
-//                    'ZFTest\OAuth2\Doctrine\Entity' => 'oauth2_driver',
                 ],
             ],
             'oauth2_driver' => [

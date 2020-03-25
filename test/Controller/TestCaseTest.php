@@ -1,9 +1,9 @@
 <?php
 
-namespace DiCommonTest\Test\Controller;
+namespace DealerInspire\LaminasTestcase\Test\Controller;
 
-use DiCommonTest\Controller\TestCase;
-use DiCommonTest\Domain\Bootstrap;
+use DealerInspire\LaminasTestcase\Controller\TestCase;
+use DealerInspire\LaminasTestcase\Domain\Bootstrap;
 use Doctrine\ORM\EntityManager;
 use Faker\Generator;
 use GuzzleHttp\Client;

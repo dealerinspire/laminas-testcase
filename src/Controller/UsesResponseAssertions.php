@@ -1,6 +1,6 @@
 <?php
 
-namespace DiCommonTest\Controller;
+namespace DealerInspire\LaminasTestcase\Controller;
 
 use Exception;
 use PHPUnit\Framework\Assert;

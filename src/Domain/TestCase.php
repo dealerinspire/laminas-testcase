@@ -1,6 +1,6 @@
 <?php
 
-namespace DiCommonTest\Domain;
+namespace DealerInspire\LaminasTestcase\Domain;
 
 use Doctrine\ORM\EntityManager;
 use Faker\Factory;

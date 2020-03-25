@@ -1,6 +1,6 @@
 <?php
 
-namespace DiCommonTest\Domain;
+namespace DealerInspire\LaminasTestcase\Domain;
 
 use Zend\Stdlib\ArrayUtils;
 

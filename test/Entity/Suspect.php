@@ -1,5 +1,5 @@
 <?php
-namespace DiCommonTest\Test\Entity;
+namespace DealerInspire\LaminasTestcase\Test\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

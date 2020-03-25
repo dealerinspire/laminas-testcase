@@ -1,9 +1,9 @@
 <?php
 
-namespace DiCommonTest\Test\Domain;
+namespace DealerInspire\LaminasTestcase\Test\Domain;
 
-use DiCommonTest\Domain\Bootstrap;
-use DiCommonTest\Domain\TestCase;
+use DealerInspire\LaminasTestcase\Domain\Bootstrap;
+use DealerInspire\LaminasTestcase\Domain\TestCase;
 
 class BootstrapTest extends TestCase
 {
