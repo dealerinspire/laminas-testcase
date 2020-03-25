@@ -20,7 +20,7 @@
     },
     "support": {
         "email": "sysops@dealerinspire.com",
-        "source": "https://www.bitbucket.org/dealerinspire/laminas-testcase.git"
+        "source": "https://www.github.com/dealerinspire/laminas-testcase.git"
     },
     "config": {
         "process-timeout": 5000
