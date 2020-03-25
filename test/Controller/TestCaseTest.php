@@ -7,7 +7,7 @@ use DealerInspire\LaminasTestcase\Domain\Bootstrap;
 use Doctrine\ORM\EntityManager;
 use Faker\Generator;
 use GuzzleHttp\Client;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\ServiceManager\ServiceManager;
 use Mockery\MockInterface;
 
 class TestCaseTest extends TestCase

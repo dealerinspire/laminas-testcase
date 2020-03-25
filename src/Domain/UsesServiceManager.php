@@ -3,7 +3,7 @@
 namespace DealerInspire\LaminasTestcase\Domain;
 
 use Mockery;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\ServiceManager\ServiceManager;
 
 trait UsesServiceManager
 {

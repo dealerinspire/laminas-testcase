@@ -1,10 +1,10 @@
 <?php
 return [
     'modules' => [
-        'ZF\\ApiProblem',
-        'ZF\\MvcAuth',
-        'ZF\\OAuth2',
-        'ZF\\ContentNegotiation',
+        'Laminas\\ApiTools\\ApiProblem',
+        'Laminas\\ApiTools\\MvcAuth',
+        'Laminas\\ApiTools\\OAuth2',
+        'Laminas\\ApiTools\\ContentNegotiation',
         'ZF\\OAuth2\\Doctrine',
         'DoctrineModule',
         'DoctrineORMModule',

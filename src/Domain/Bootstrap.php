@@ -2,7 +2,7 @@
 
 namespace DealerInspire\LaminasTestcase\Domain;
 
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Stdlib\ArrayUtils;
 
 /**
  * Test bootstrap, for setting up Laminas configuration
