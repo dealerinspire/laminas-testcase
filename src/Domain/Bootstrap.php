@@ -2,7 +2,7 @@
 
 namespace DiCommonTest\Domain;
 
-use Laminas\Stdlib\ArrayUtils;
+use Zend\Stdlib\ArrayUtils;
 
 /**
  * Test bootstrap, for setting up Laminas configuration
@@ -42,6 +42,10 @@ class Bootstrap
             ],
             'modules' => $appConfig['modules'],
         ];
+
+        if (isset($appConfig['zf-oauth2-doctrine'])) {
+            self::$config['zf-oauth2-doctrine'] = $appConfig['zf-oauth2-doctrine'];
+        }
     }
 
     public static function chroot()

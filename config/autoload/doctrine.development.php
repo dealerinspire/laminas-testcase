@@ -13,11 +13,22 @@ return [
             'test_annotation_driver' => [
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'cache' => 'array',
-                'paths' => [APPLICATION_PATH . '/test/Entity'],
+                'paths' => [
+                    APPLICATION_PATH . '/test/Entity',
+                ],
             ],
             'orm_default' => [
                 'drivers' => [
                     'DiCommonTest\Test\Entity' => 'test_annotation_driver',
+                    'ZF\OAuth2\Doctrine\Entity' => 'oauth2_driver',
+//                    'ZFTest\OAuth2\Doctrine\Entity' => 'oauth2_driver',
+                ],
+            ],
+            'oauth2_driver' => [
+                'class' => 'Doctrine\ORM\Mapping\Driver\XmlDriver',
+                'paths' => [
+                    APPLICATION_PATH . '/vendor/api-skeletons/zf-oauth2-doctrine/config/orm',
+                    APPLICATION_PATH . '/vendor/api-skeletons/zf-oauth2-doctrine/test/asset/module/Doctrine/config/orm'
                 ],
             ],
         ],

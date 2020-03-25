@@ -3,25 +3,24 @@
     "description": "Unit test support module for Laminas projects",
     "require": {
         "php": "~7.1",
-        "api-skeletons/zf-oauth2-doctrine": "*",
-        "doctrine/orm": "*",
         "fzaninotto/faker": "^1.8",
-        "laminas/laminas-dependency-plugin": "^1.0",
-        "laminas/laminas-test": "^2.6",
-        "laminas/laminas-servicemanager": "^2.7",
-        "laminas/laminas-stdlib": "*",
+        "zendframework/zend-test": "^2.6",
+        "zendframework/zend-servicemanager": "^2.7",
+        "zendframework/zend-stdlib": "*",
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "*",
         "guzzlehttp/guzzle": "^6.5"
     },
     "require-dev": {
-        "laminas/laminas-developer-tools": "^2.0",
-        "laminas/laminas-serializer": "^2.9",
-        "laminas/laminas-log": "^2.12"
+        "api-skeletons/zf-oauth2-doctrine": "*",
+        "doctrine/orm": "*",
+        "zendframework/zend-developer-tools": "^2.0",
+        "zendframework/zend-serializer": "^2.9",
+        "zendframework/zend-log": "^2.12"
     },
     "support": {
         "email": "sysops@dealerinspire.com",
-        "source": "https://www.bitbucket.org/dealerinspire/laminas-user"
+        "source": "https://www.bitbucket.org/dealerinspire/laminas-testcase.git"
     },
     "config": {
         "process-timeout": 5000

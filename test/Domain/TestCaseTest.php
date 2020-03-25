@@ -6,7 +6,7 @@ use DiCommonTest\Domain\TestCase;
 use Doctrine\ORM\EntityManager;
 use Faker\Generator;
 use GuzzleHttp\Client;
-use Laminas\ServiceManager\ServiceManager;
+use Zend\ServiceManager\ServiceManager;
 use Mockery\MockInterface;
 
 class TestCaseTest extends TestCase

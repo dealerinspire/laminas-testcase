@@ -5,9 +5,8 @@ namespace DiCommonTest\Domain;
 use Doctrine\ORM\EntityManager;
 use Faker\Factory;
 use Faker\Generator;
-use Laminas\Mvc\Service\ServiceManagerConfig;
-use Laminas\ServiceManager\ServiceManager;
-use Mockery;
+use Zend\Mvc\Service\ServiceManagerConfig;
+use Zend\ServiceManager\ServiceManager;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 use ReflectionObject;
@@ -52,7 +51,7 @@ class TestCase extends BaseTestCase
 
         $this->faker = null;
 
-        Mockery::close();
+        $this->closeMockery();
 
         parent::tearDown();
 

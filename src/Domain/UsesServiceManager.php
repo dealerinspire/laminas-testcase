@@ -3,7 +3,7 @@
 namespace DiCommonTest\Domain;
 
 use Mockery;
-use Laminas\ServiceManager\ServiceManager;
+use Zend\ServiceManager\ServiceManager;
 
 trait UsesServiceManager
 {
